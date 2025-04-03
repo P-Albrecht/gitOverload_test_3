@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { EnviromentComponent } from "./enviroment/enviroment.component";
 
 const routes: Routes = [
+    { path: 'SettingsComponent'
+     , component: EnviromentComponent },
     { path: 'enviroment', component: EnviromentComponent },
     { path: '', redirectTo: '/enviroment', pathMatch: 'full' },
   ];
